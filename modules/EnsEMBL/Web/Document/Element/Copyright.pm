@@ -45,9 +45,9 @@ $html .= '<a href="http://ed.ac.uk"><img title="University of Edinburgh" class="
 $html .= '</div>';
 
   return sprintf( qq(
-   <div class="column-two left">
+  <div class="column-two left">
 		   %s release %s - %s -
-		  %s &copy;&quot;ChirpBase is a community resource to facilitate research on evolutionary, functional and comparative genomics in singing insects, and the ChirpBase project is committed to the principles of open science. Please contact the <a href="mailto:nwb3@st-andrews.ac.uk">Bailey lab</a> if you would like to download and use data on this site, and we will be more than happy to discuss possibilities for collaborative work. We request that you please do not publish our data, or analyses that make use of it, until we have had a chance to do so ourselves. Aside from this, we are eager to expand ChirpBase resources to enable large-scale research projects on the evolution of signalling, comparative neurobiology, functional genomics, or any other work using this fascinating taxonomic group. Please get in touch if you would like to contribute, and be assured that the same principles on data sharing and use apply to any group that contributes to the site. Thank you, and happy browsing!&quot; <span class="print_hide"><a href="http://www.ed.ac.uk/" style="white-space:nowrap">Edinburgh University</a> / EnsEMBL &copy; <a href="http://www.ebi.ac.uk/" style="white-space:nowrap">EBI</a></span>
+		  %s &copy; <span class="print_hide"><a href="http://www.ed.ac.uk/" style="white-space:nowrap">Edinburgh University</a> / ChirpBase is a community resource to facilitate research on evolutionary, functional genomics in singing insects the ChirpBase project is committed to the principles EnsEMBL &copy; <a href="http://www.ebi.ac.uk/" style="white-space:nowrap">EBI</a></span>
       %s
   </div>),     $site_name, $site_version, $site_date, $site_name, $html
 ## ...END MODIFICATIONS
