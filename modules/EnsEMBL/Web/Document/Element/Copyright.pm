@@ -47,7 +47,7 @@ $html .= '</div>';
   return sprintf( qq(
   <div class="column-two left">
 		   %s release %s - %s -
-		  %s &copy; <span class="print_hide"><a href="http://www.uk/" style="white-space:nowrap">Eddddddddinburgh University</a> / aassEnsEMBL &copy; <a href="http://www.ebi.ac.uk/" style="white-space:nowrap">EccccBI</a></span>
+		  %s &copy; <span class="print_hide"><a href="http://www.uk/" style="white-space:nowrap">Eddddddddinburgh University</a> / ABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDE &copy; <a href="http://www.ebi.ac.uk/" style="white-space:nowrap">EccccBI</a></span>
       %s
   </div>),     $site_name, $site_version, $site_date, $site_name, $html
 ## ...END MODIFICATIONS
