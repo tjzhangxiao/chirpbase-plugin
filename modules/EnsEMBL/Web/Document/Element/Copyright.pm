@@ -47,7 +47,7 @@ $html .= '</div>';
   return sprintf( qq(
   <div class="column-two left">
 		   %s release %s - %s -
-		  %s &copy; <span class="print_hide"><a href="http://ensembl.chirpbase.org/index.html" style="white-space:nowrap">ChirpBase</a> is a community resource to facilitate research on evolutionary functional and comparative genomics in singing insects and the ChirpBase project is committed to the principles of open science Please contact the <a href="mailto:nwb3@st-andrews.ac.uk" style="white-space:nowrap">Bailey lab</a> if you would like to download and use data on this site and we will be more than happy to discuss possibilities for collaborative work We request that you please do not publish our data or analyses that make use of it until we have had a chance to do so ourselves</span>
+		  %s &copy; <span class="print_hide"><a href="http://www.uk/" style="white-space:nowrap">Eddddddddinburgh University</a> / aassEnsEMBL &copy; <a href="http://www.ebi.ac.uk/" style="white-space:nowrap">EccccBI</a></span>
       %s
   </div>),     $site_name, $site_version, $site_date, $site_name, $html
 ## ...END MODIFICATIONS
