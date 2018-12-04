@@ -40,7 +40,7 @@ my $site_name = $self->hub->species_defs->ENSEMBL_SITE_NAME_SHORT;
 my $site_version = $self->hub->species_defs->SITE_RELEASE_VERSION;
 my $site_date = $self->hub->species_defs->SITE_RELEASE_DATE;
 my $html = '<div class=lb-ackn-logos>';
-$html .= '<a href="http://ed.ac.uk"><img title="University of Edinburgh" class="lb-footer-logo" src="/img/edinburgh_logo.png"></a>';
+$html .= '<a href="http://ed.ac.uk"><img title="University of Edinburgh" class="lb-footer-logo" src="/img/edinburgh_logo.png"></a><a href="http://st-andrews.ac.uk"><img title="University of St Andrews" class="lb-footer-logo" src="/img/st_andrews_logo.png"></a>';
 
 $html .= '</div>';
 
